@@ -142,57 +142,57 @@ def main():
     selected_cognitive_questions = random.sample(cognitive_questions, 2)
     selected_skills_questions = random.sample(skills_questions, 2)
 
-    cognitive_results = present_questions(selected_cognitive_questions)
-    skills_results = present_questions(selected_skills_questions)
+    # cognitive_results = present_questions(selected_cognitive_questions)
+    # skills_results = present_questions(selected_skills_questions)
 
-    cognitive_score = calculate_cognitive_score(cognitive_results)
-    skills_score = calculate_skills_score(skills_results)
+    # cognitive_score = calculate_cognitive_score(cognitive_results)
+    # skills_score = calculate_skills_score(skills_results)
 
-    print(f"Your cognitive score is: {cognitive_score}/{len(selected_cognitive_questions)}")
-    print(f"Your skills score is: {skills_score}/{sum(q['difficulty'] for q in selected_skills_questions)}")
+    # print(f"Your cognitive score is: {cognitive_score}/{len(selected_cognitive_questions)}")
+    # print(f"Your skills score is: {skills_score}/{sum(q['difficulty'] for q in selected_skills_questions)}")
 
-    cognitive_feedback = generate_feedback(cognitive_score, len(selected_cognitive_questions))
-    skills_feedback = generate_skills_feedback(skills_score, sum(q['difficulty'] for q in selected_skills_questions))
+    # cognitive_feedback = generate_feedback(cognitive_score, len(selected_cognitive_questions))
+    # skills_feedback = generate_skills_feedback(skills_score, sum(q['difficulty'] for q in selected_skills_questions))
 
-    print("\nCognitive Feedback:")
-    print(cognitive_feedback)
+    # print("\nCognitive Feedback:")
+    # print(cognitive_feedback)
 
-    print("\nSkills Feedback:")
-    print(skills_feedback)
+    # print("\nSkills Feedback:")
+    # print(skills_feedback)
 
-    cognitive_analysis = analyze_cognitive_results(cognitive_results)
-    skills_analysis = analyze_skills_results(skills_results)
+    # cognitive_analysis = analyze_cognitive_results(cognitive_results)
+    # skills_analysis = analyze_skills_results(skills_results)
 
-    print("\nCognitive Analysis:")
-    print(f"Total Questions: {cognitive_analysis['total_questions']}")
-    print(f"Correct Answers: {cognitive_analysis['correct_answers']}")
-    print(f"Incorrect Answers: {cognitive_analysis['incorrect_answers']}")
-    print("Strengths: ", ", ".join(cognitive_analysis['strengths']) if cognitive_analysis['strengths'] else "None")
-    print("Weaknesses: ", ", ".join(cognitive_analysis['weaknesses']) if cognitive_analysis['weaknesses'] else "None")
+    # print("\nCognitive Analysis:")
+    # print(f"Total Questions: {cognitive_analysis['total_questions']}")
+    # print(f"Correct Answers: {cognitive_analysis['correct_answers']}")
+    # print(f"Incorrect Answers: {cognitive_analysis['incorrect_answers']}")
+    # print("Strengths: ", ", ".join(cognitive_analysis['strengths']) if cognitive_analysis['strengths'] else "None")
+    # print("Weaknesses: ", ", ".join(cognitive_analysis['weaknesses']) if cognitive_analysis['weaknesses'] else "None")
 
-    print("\nSkills Analysis:")
-    print(f"Total Questions: {skills_analysis['total_questions']}")
-    print(f"Total Units: {skills_analysis['total_units']}")
-    print(f"Score: {skills_analysis['score']}")
-    print(f"Incorrect Answers: {skills_analysis['incorrect_answers']}")
-    print("Strengths: ", ", ".join(skills_analysis['strengths']) if skills_analysis['strengths'] else "None")
-    print("Weaknesses: ", ", ".join(skills_analysis['weaknesses']) if skills_analysis['weaknesses'] else "None")
+    # print("\nSkills Analysis:")
+    # print(f"Total Questions: {skills_analysis['total_questions']}")
+    # print(f"Total Units: {skills_analysis['total_units']}")
+    # print(f"Score: {skills_analysis['score']}")
+    # print(f"Incorrect Answers: {skills_analysis['incorrect_answers']}")
+    # print("Strengths: ", ", ".join(skills_analysis['strengths']) if skills_analysis['strengths'] else "None")
+    # print("Weaknesses: ", ", ".join(skills_analysis['weaknesses']) if skills_analysis['weaknesses'] else "None")
 
-    results_compilation = {
-        "cognitive": {
-            "score": cognitive_score,
-            "feedback": cognitive_feedback,
-            "analysis": cognitive_analysis,
-            "detailed_results": cognitive_results
-        },
-        "skills": {
-            "score": skills_score,
-            "feedback": skills_feedback,
-            "detailed_results": skills_results
-        }
-    }
+    # results_compilation = {
+    #     "cognitive": {
+    #         "score": cognitive_score,
+    #         "feedback": cognitive_feedback,
+    #         "analysis": cognitive_analysis,
+    #         "detailed_results": cognitive_results
+    #     },
+    #     "skills": {
+    #         "score": skills_score,
+    #         "feedback": skills_feedback,
+    #         "detailed_results": skills_results
+    #     }
+    # }
 
-    save_results_to_json(results_compilation, 'phase1_results.json')
+    # save_results_to_json(results_compilation, 'phase1_results.json')
 
 if __name__ == "__main__":
     main()
