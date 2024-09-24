@@ -1,0 +1,52 @@
+{
+    "cognitive": {
+        "score": 0,
+        "feedback": "It seems you may need to review the material further. Don't be discouraged\u2014practice will help you improve!",
+        "analysis": {
+            "total_questions": 2,
+            "correct_answers": 0,
+            "incorrect_answers": 2,
+            "strengths": [],
+            "weaknesses": [
+                "What is the square root of 81?",
+                "Solve for x: 2x = 10"
+            ]
+        },
+        "detailed_results": [
+            {
+                "question": "What is the square root of 81?",
+                "user_answer": "A",
+                "correct_answer": "9",
+                "is_correct": false,
+                "difficulty": 2
+            },
+            {
+                "question": "Solve for x: 2x = 10",
+                "user_answer": "A",
+                "correct_answer": "5",
+                "is_correct": false,
+                "difficulty": 2
+            }
+        ]
+    },
+    "skills": {
+        "score": 0,
+        "feedback": "Consider reviewing the material to improve your skills.",
+        "detailed_results": [
+            {
+                "question": "Which of the following is a synonym for 'happy'?",
+                "user_answer": "A",
+                "correct_answer": "Joyful",
+                "is_correct": false,
+                "difficulty": 1
+            },
+            {
+                "question": "What is the past tense of 'run'?",
+                "user_answer": "A",
+                "correct_answer": "Ran",
+                "is_correct": false,
+                "difficulty": 1
+            }
+        ]
+    }
+}

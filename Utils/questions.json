@@ -1,0 +1,189 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "category": "Cognitive",
+        "question": "What is 5 + 3?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "8",
+        "difficulty": 1
+      },
+      {
+        "id": 2,
+        "category": "Cognitive",
+        "question": "Solve for x: 2x = 10",
+        "options": ["3", "5", "7", "10"],
+        "answer": "5",
+        "difficulty": 2
+      },
+      {
+        "id": 3,
+        "category": "Skills",
+        "question": "Which of the following is a synonym for 'happy'?",
+        "options": ["Sad", "Joyful", "Angry", "Tired"],
+        "answer": "Joyful",
+        "difficulty": 1
+      },
+    {
+        "id": 4,
+        "category": "Cognitive",
+        "question": "What is 12 - 4?",
+        "options": ["6", "7", "8", "9"],
+        "answer": "8",
+        "difficulty": 1
+    },
+    {
+        "id": 5,
+        "category": "Cognitive",
+        "question": "What is the square root of 81?",
+        "options": ["7", "8", "9", "10"],
+        "answer": "9",
+        "difficulty": 2
+    },
+    {
+        "id": 6,
+        "category": "Cognitive",
+        "question": "What is 15 * 3?",
+        "options": ["30", "35", "45", "50"],
+        "answer": "45",
+        "difficulty": 2
+    },
+    {
+        "id": 7,
+        "category": "Cognitive",
+        "question": "What is 100 / 4?",
+        "options": ["20", "25", "30", "35"],
+        "answer": "25",
+        "difficulty": 1
+    },
+    {
+        "id": 8,
+        "category": "Cognitive",
+        "question": "Solve for y: 3y + 2 = 11",
+        "options": ["2", "3", "4", "5"],
+        "answer": "3",
+        "difficulty": 3
+    },
+    {
+        "id": 9,
+        "category": "Cognitive",
+        "question": "What is the value of π (pi) to two decimal places?",
+        "options": ["3.12", "3.14", "3.16", "3.18"],
+        "answer": "3.14",
+        "difficulty": 2
+    },
+    {
+        "id": 10,
+        "category": "Cognitive",
+        "question": "What is the derivative of x^2?",
+        "options": ["x", "2x", "x^2", "2x^2"],
+        "answer": "2x",
+        "difficulty": 4
+    },
+    {
+        "id": 11,
+        "category": "Cognitive",
+        "question": "What is the integral of 2x?",
+        "options": ["x", "x^2", "2x^2", "x^2 + C"],
+        "answer": "x^2 + C",
+        "difficulty": 5
+    },
+    {
+        "id": 12,
+        "category": "Cognitive",
+        "question": "What is 2^5?",
+        "options": ["16", "32", "64", "128"],
+        "answer": "32",
+        "difficulty": 2
+    },
+    {
+        "id": 13,
+        "category": "Skills",
+        "question": "Which word is a synonym for 'quick'?",
+        "options": ["Slow", "Fast", "Lazy", "Tired"],
+        "answer": "Fast",
+        "difficulty": 1
+    },
+    {
+        "id": 14,
+        "category": "Skills",
+        "question": "Which word is an antonym for 'difficult'?",
+        "options": ["Easy", "Hard", "Tough", "Challenging"],
+        "answer": "Easy",
+        "difficulty": 1
+    },
+    {
+        "id": 15,
+        "category": "Skills",
+        "question": "What is the past tense of 'run'?",
+        "options": ["Running", "Ran", "Runs", "Runned"],
+        "answer": "Ran",
+        "difficulty": 1
+    },
+    {
+        "id": 16,
+        "category": "Skills",
+        "question": "Which word is a synonym for 'beautiful'?",
+        "options": ["Ugly", "Pretty", "Plain", "Dull"],
+        "answer": "Pretty",
+        "difficulty": 1
+    },
+    {
+        "id": 17,
+        "category": "Skills",
+        "question": "Which word is an antonym for 'increase'?",
+        "options": ["Grow", "Expand", "Decrease", "Enlarge"],
+        "answer": "Decrease",
+        "difficulty": 2
+    },
+    {
+        "id": 18,
+        "category": "Skills",
+        "question": "What is the plural form of 'child'?",
+        "options": ["Childs", "Children", "Childes", "Childrens"],
+        "answer": "Children",
+        "difficulty": 2
+    },
+    {
+        "id": 19,
+        "category": "Skills",
+        "question": "Which word is a synonym for 'intelligent'?",
+        "options": ["Dumb", "Smart", "Foolish", "Ignorant"],
+        "answer": "Smart",
+        "difficulty": 2
+    },
+    {
+        "id": 20,
+        "category": "Skills",
+        "question": "Which word is an antonym for 'accept'?",
+        "options": ["Receive", "Reject", "Adopt", "Embrace"],
+        "answer": "Reject",
+        "difficulty": 3
+    },
+    {
+        "id": 21,
+        "category": "Skills",
+        "question": "What is the comparative form of 'good'?",
+        "options": ["Gooder", "Better", "Best", "More good"],
+        "answer": "Better",
+        "difficulty": 2
+    },
+    {
+        "id": 22,
+        "category": "Skills",
+        "question": "Which word is a synonym for 'angry'?",
+        "options": ["Happy", "Calm", "Furious", "Joyful"],
+        "answer": "Furious",
+        "difficulty": 3
+    },
+    {
+        "id": 23,
+        "category": "Skills",
+        "question": "Which word is an antonym for 'brave'?",
+        "options": ["Courageous", "Fearful", "Bold", "Daring"],
+        "answer": "Fearful",
+        "difficulty": 3
+    }
+    ]
+  }
+  
