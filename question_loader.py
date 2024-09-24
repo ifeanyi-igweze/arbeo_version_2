@@ -3,7 +3,8 @@ import os
 import random
 
 def get_file_path(filename):
-    return os.path.join(r"C:\Users\chris\Arbeo\version_2\Utils", filename)
+    base_dir = os.path.dirname(__file__)
+    return os.path.join(base_dir, 'Utils', filename)
 
 def load_json_file(filename):
     with open(get_file_path(filename), 'r') as file:
